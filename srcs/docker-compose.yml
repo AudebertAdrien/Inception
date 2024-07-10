@@ -38,7 +38,6 @@ services:
       - inception
     restart: always
 
-
 volumes:
   db:
     driver: local
