@@ -13,7 +13,7 @@
 #
 
 user                    = mysql
-socket			= /run/mysqld/mysqld.sock
+socket					= /run/mysqld/mysqld.sock
 pid-file                = /run/mysqld/mysqld.pid
 basedir                 = /usr
 datadir                 = /var/lib/mysql

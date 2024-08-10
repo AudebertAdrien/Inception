@@ -1,6 +1,6 @@
 FROM debian:bullseye
 
-RUN apt-get update -y && apt-get upgrade -y && apt-get install -y php7.4-fpm php-mysqli curl php-soap vim
+RUN apt update -y && apt upgrade -y && apt install -y php7.4-fpm php-mysqli curl php-soap vim
 
 COPY conf/www.conf /etc/php/7.4/fpm/pool.d/www.conf
 COPY tools/init.sh /usr/local/bin/init.sh

@@ -18,7 +18,7 @@ wp config create --allow-root \
 
 wp core install --allow-root \
 	--url=https://${DOMAIN_NAME} \
-	--title="ocassany's inception site" \
+	--title="aaudeber's inception site" \
 	--admin_user=${WP_ADM} \
 	--admin_password=${WP_APWD} \
 	--admin_email=fakeadmin@example.com
